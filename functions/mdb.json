@@ -1,0 +1,2726 @@
+{
+    "mysql": {
+        "b1.medium": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 512"
+        },
+        "s1.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 8184"
+        },
+        "s1.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "s1.medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "s1.large": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "s1.xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "b2.medium": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 512"
+        },
+        "m2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "m2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "m2.medium": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "m2.large": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "m2.xlarge": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "m2.2xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "m2.3xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "m2.4xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "m2.5xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8184"
+        },
+        "m2.6xlarge": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "10 - 8184"
+        },
+        "m2.7xlarge": {
+            "cores": 56,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "10 - 8184"
+        },
+        "m2.8xlarge": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "10 - 8184"
+        },
+        "m2.9xlarge": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 640,
+            "disk": "100 - 1500"
+        },
+        "s2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 8184"
+        },
+        "s2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "s2.medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "s2.large": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "s2.xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "s2.2xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "s2.3xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "s2.4xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 8184"
+        },
+        "s2.5xlarge": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "s2.6xlarge": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "s2.7xlarge": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "100 - 1500"
+        },
+        "s3-c2-m8": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 8184"
+        },
+        "s3-c4-m16": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "s3-c8-m32": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "s3-c12-m48": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "s3-c16-m64": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "s3-c24-m96": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "s3-c32-m128": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "s3-c40-m160": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 8184"
+        },
+        "s3-c48-m192": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "s3-c64-m256": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "s3-c80-m320": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8184"
+        },
+        "s3-c96-m576": {
+            "cores": 96,
+            "core_fraction": 100,
+            "memory": 576,
+            "disk": "10 - 8184"
+        },
+        "m3-c2-m16": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "m3-c4-m32": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "m3-c6-m48": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "m3-c8-m64": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "m3-c12-m96": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "m3-c16-m128": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "m3-c24-m192": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "m3-c32-m256": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "m3-c40-m320": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8184"
+        },
+        "m3-c48-m384": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "10 - 8184"
+        },
+        "m3-c56-m448": {
+            "cores": 56,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "10 - 8184"
+        },
+        "m3-c64-m512": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "10 - 8184"
+        },
+        "m3-c80-m640": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 640,
+            "disk": "10 - 8184"
+        },
+        "c3-c2-m4": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 4,
+            "disk": "10 - 8184"
+        },
+        "c3-c4-m8": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 8184"
+        },
+        "c3-c8-m16": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "c3-c12-m24": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 24,
+            "disk": "10 - 8184"
+        },
+        "c3-c16-m32": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "c3-c24-m48": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "c3-c32-m64": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "c3-c40-m80": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 80,
+            "disk": "10 - 8184"
+        },
+        "c3-c48-m96": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "c3-c64-m128": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "c3-c80-m160": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 8184"
+        },
+        "c3-c96-m192": {
+            "cores": 96,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        }
+    },
+    "postgresql": {
+        "b1.medium": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 512"
+        },
+        "s1.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 10230"
+        },
+        "s1.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 10230"
+        },
+        "s1.medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 10230"
+        },
+        "s1.large": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 10230"
+        },
+        "s1.xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 10230"
+        },
+        "b2.medium": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 512"
+        },
+        "m2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 10230"
+        },
+        "m2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 10230"
+        },
+        "m2.medium": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 10230"
+        },
+        "m2.large": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 10230"
+        },
+        "m2.xlarge": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 10230"
+        },
+        "m2.2xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 10230"
+        },
+        "m2.3xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 10230"
+        },
+        "m2.4xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 10230"
+        },
+        "m2.5xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 10230"
+        },
+        "m2.6xlarge": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "10 - 10230"
+        },
+        "m2.7xlarge": {
+            "cores": 56,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "10 - 10230"
+        },
+        "m2.8xlarge": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "10 - 10230"
+        },
+        "s2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 10230"
+        },
+        "s2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 10230"
+        },
+        "s2.medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 10230"
+        },
+        "s2.large": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 10230"
+        },
+        "s2.xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 10230"
+        },
+        "s2.2xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 10230"
+        },
+        "s2.3xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 10230"
+        },
+        "s2.4xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 10230"
+        },
+        "s2.5xlarge": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 10230"
+        },
+        "s2.6xlarge": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 10230"
+        },
+        "s3-c2-m8": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 10230"
+        },
+        "s3-c4-m16": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 10230"
+        },
+        "s3-c8-m32": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 10230"
+        },
+        "s3-c12-m48": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 10230"
+        },
+        "s3-c16-m64": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 10230"
+        },
+        "s3-c24-m96": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 10230"
+        },
+        "s3-c32-m128": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 10230"
+        },
+        "s3-c40-m160": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 10230"
+        },
+        "s3-c48-m192": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 10230"
+        },
+        "s3-c64-m256": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 10230"
+        },
+        "s3-c80-m320": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 10230"
+        },
+        "s3-c96-m576": {
+            "cores": 96,
+            "core_fraction": 100,
+            "memory": 576,
+            "disk": "10 - 10230"
+        },
+        "m3-c2-m16": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 10230"
+        },
+        "m3-c4-m32": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 10230"
+        },
+        "m3-c6-m48": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 10230"
+        },
+        "m3-c8-m64": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 10230"
+        },
+        "m3-c12-m96": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 10230"
+        },
+        "m3-c16-m128": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 10230"
+        },
+        "m3-c24-m192": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 10230"
+        },
+        "m3-c32-m256": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 10230"
+        },
+        "m3-c40-m320": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 10230"
+        },
+        "m3-c48-m384": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "10 - 10230"
+        },
+        "m3-c56-m448": {
+            "cores": 56,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "10 - 10230"
+        },
+        "m3-c64-m512": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "10 - 10230"
+        },
+        "m3-c80-m640": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 640,
+            "disk": "10 - 10230"
+        },
+        "c3-c2-m4": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 4,
+            "disk": "10 - 10230"
+        },
+        "c3-c4-m8": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 10230"
+        },
+        "c3-c8-m16": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 10230"
+        },
+        "c3-c12-m24": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 24,
+            "disk": "10 - 10230"
+        },
+        "c3-c16-m32": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 10230"
+        },
+        "c3-c24-m48": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 10230"
+        },
+        "c3-c32-m64": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 10230"
+        },
+        "c3-c40-m80": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 80,
+            "disk": "10 - 10230"
+        },
+        "c3-c48-m96": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 10230"
+        },
+        "c3-c64-m128": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 10230"
+        },
+        "c3-c80-m160": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 10230"
+        },
+        "c3-c96-m192": {
+            "cores": 96,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 10230"
+        }
+    },
+    "redis": {
+        "hm1.nano": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "16 - 4096"
+        },
+        "hm1.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 12,
+            "disk": "24 - 4096"
+        },
+        "hm1.small": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "32 - 4096"
+        },
+        "hm1.medium": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 24,
+            "disk": "48 - 4096"
+        },
+        "hm1.large": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "64 - 4096"
+        },
+        "hm1.xlarge": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "96 - 4096"
+        },
+        "hm1.2xlarge": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "128 - 4096"
+        },
+        "hm1.3xlarge": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 80,
+            "disk": "160 - 4096"
+        },
+        "hm1.4xlarge": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "192 - 4096"
+        },
+        "hm1.5xlarge": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "256 - 4096"
+        },
+        "hm1.6xlarge": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "320 - 4096"
+        },
+        "hm1.7xlarge": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "384 - 4096"
+        },
+        "hm1.8xlarge": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 224,
+            "disk": "448 - 4096"
+        },
+        "hm1.9xlarge": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "512 - 4096"
+        },
+        "b2.medium": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "8 - 32"
+        },
+        "hm2.nano": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "16 - 8184"
+        },
+        "hm2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 12,
+            "disk": "24 - 8184"
+        },
+        "hm2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "32 - 8184"
+        },
+        "hm2.medium": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 24,
+            "disk": "48 - 8184"
+        },
+        "hm2.large": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "64 - 8184"
+        },
+        "hm2.xlarge": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "96 - 8184"
+        },
+        "hm2.96xlarge": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "192 - 8184"
+        },
+        "hm2.128xlarge": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "256 - 8184"
+        },
+        "hm2.160xlarge": {
+            "cores": 10,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "320 - 8184"
+        },
+        "hm2.192xlarge": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "384 - 8184"
+        },
+        "hm2.224xlarge": {
+            "cores": 14,
+            "core_fraction": 100,
+            "memory": 224,
+            "disk": "448 - 8184"
+        },
+        "hm2.256xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "512 - 8184"
+        },
+        "hm2.320xlarge": {
+            "cores": 20,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "640 - 8184"
+        },
+        "hm2.384xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "768 - 8184"
+        },
+        "hm2.448xlarge": {
+            "cores": 28,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "896 - 8184"
+        },
+        "hm2.512xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "1024 - 8184"
+        },
+        "b3-c1-m4": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "8 - 32"
+        },
+        "hm3-c2-m8": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "16 - 8184"
+        },
+        "hm3-c2-m12": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 12,
+            "disk": "24 - 8184"
+        },
+        "hm3-c4-m16": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "32 - 8184"
+        },
+        "hm3-c4-m24": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 24,
+            "disk": "48 - 8184"
+        },
+        "hm3-c4-m32": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "64 - 8184"
+        },
+        "hm3-c4-m48": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "96 - 8184"
+        },
+        "hm3-c6-m60": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 60,
+            "disk": "120 - 8184"
+        },
+        "hm3-c6-m78": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 78,
+            "disk": "156 - 8184"
+        },
+        "hm3-c6-m96": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "192 - 8184"
+        },
+        "hm3-c8-m128": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "256 - 8184"
+        },
+        "hm3-c12-m192": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "384 - 8184"
+        },
+        "hm3-c14-m224": {
+            "cores": 14,
+            "core_fraction": 100,
+            "memory": 224,
+            "disk": "448 - 8184"
+        },
+        "hm3-c16-m256": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "512 - 8184"
+        },
+        "hm3-c20-m320": {
+            "cores": 20,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "640 - 8184"
+        },
+        "hm3-c24-m384": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "768 - 8184"
+        },
+        "hm3-c28-m448": {
+            "cores": 28,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "896 - 8184"
+        },
+        "hm3-c32-m512": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "1024 - 8184"
+        }
+    },
+    "greenplum": {
+        "s2.medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "93 - 8184"
+        },
+        "s2.large": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "93 - 8184"
+        },
+        "i2.2xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "93 - 8184"
+        },
+        "i2.4xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "93 - 8184"
+        },
+        "i2.5xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "93 - 8184"
+        },
+        "s3-c8-m32": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8192"
+        },
+        "s3-c12-m48": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8192"
+        },
+        "i3-c16-m128": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8192"
+        },
+        "i3-c32-m256": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8192"
+        },
+        "i3-c40-m320": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8192"
+        }
+    },
+    "opensearch": {
+        "m2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "m2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "m2.medium": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "m2.large": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "m2.xlarge": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "m2.2xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "m2.3xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "m2.4xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "m2.5xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8184"
+        },
+        "m2.6xlarge": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "10 - 8184"
+        },
+        "m2.7xlarge": {
+            "cores": 56,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "10 - 8184"
+        },
+        "m2.8xlarge": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "10 - 8184"
+        },
+        "s2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 8184"
+        },
+        "s2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "s2.medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "s2.large": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "s2.xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "s2.2xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "s2.3xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "s2.4xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 8184"
+        },
+        "s2.5xlarge": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "s2.6xlarge": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "b3-c1-m4": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 4096"
+        },
+        "s3-c2-m8": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 8184"
+        },
+        "s3-c4-m16": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "s3-c8-m32": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "s3-c12-m48": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "s3-c16-m64": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "s3-c24-m96": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "s3-c32-m128": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "s3-c40-m160": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 8184"
+        },
+        "s3-c48-m192": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "s3-c64-m256": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "s3-c80-m320": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8184"
+        },
+        "s3-c96-m576": {
+            "cores": 96,
+            "core_fraction": 100,
+            "memory": 576,
+            "disk": "10 - 8184"
+        },
+        "m3-c2-m16": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "m3-c4-m32": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "m3-c6-m48": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "m3-c8-m64": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "m3-c12-m96": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "m3-c16-m128": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "m3-c24-m192": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "m3-c32-m256": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "m3-c40-m320": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8184"
+        },
+        "m3-c48-m384": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "10 - 8184"
+        },
+        "m3-c56-m448": {
+            "cores": 56,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "10 - 8184"
+        },
+        "m3-c64-m512": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "10 - 8184"
+        },
+        "m3-c80-m640": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 640,
+            "disk": "10 - 8184"
+        }
+    },
+    "kafka": {
+        "s1.nano": {
+            "cores": 1,
+            "core_fraction": 100,
+            "memory": 4,
+            "disk": "100 - 1500"
+        },
+        "s1.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "100 - 1500"
+        },
+        "s1.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "100 - 1500"
+        },
+        "s1.medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "100 - 1500"
+        },
+        "s1.large": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "100 - 1500"
+        },
+        "s1.xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "100 - 1500"
+        },
+        "m1.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "100 - 1500"
+        },
+        "m1.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "100 - 1500"
+        },
+        "m1.medium": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "100 - 1500"
+        },
+        "m1.large": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "100 - 1500"
+        },
+        "m1.xlarge": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "100 - 1500"
+        },
+        "m1.2xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "100 - 1500"
+        },
+        "m1.3xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "100 - 1500"
+        },
+        "m1.4xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "100 - 1500"
+        },
+        "b2.medium": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 512"
+        },
+        "m2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "m2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "m2.medium": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "m2.large": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "m2.xlarge": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "m2.2xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "m2.3xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "m2.4xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "m2.5xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8184"
+        },
+        "m2.6xlarge": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "10 - 8184"
+        },
+        "m2.7xlarge": {
+            "cores": 56,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "10 - 8184"
+        },
+        "m2.8xlarge": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "10 - 8184"
+        },
+        "s2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 8184"
+        },
+        "s2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "s2.medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "s2.large": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "s2.xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "s2.2xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "s2.3xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "s2.4xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 8184"
+        },
+        "s2.5xlarge": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "s2.6xlarge": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "b3-c1-m4": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 512"
+        },
+        "s3-c2-m8": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 8184"
+        },
+        "s3-c4-m16": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "s3-c8-m32": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "s3-c12-m48": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "s3-c16-m64": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "s3-c24-m96": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "s3-c32-m128": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "s3-c40-m160": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 8184"
+        },
+        "s3-c48-m192": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "s3-c64-m256": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "s3-c80-m320": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8184"
+        },
+        "s3-c96-m576": {
+            "cores": 96,
+            "core_fraction": 100,
+            "memory": 576,
+            "disk": "10 - 8184"
+        },
+        "m3-c2-m16": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "m3-c4-m32": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "m3-c6-m48": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "m3-c8-m64": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "m3-c12-m96": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "m3-c16-m128": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "m3-c24-m192": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "m3-c32-m256": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "m3-c40-m320": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8184"
+        },
+        "m3-c48-m384": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "10 - 8184"
+        },
+        "m3-c56-m448": {
+            "cores": 56,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "10 - 8184"
+        },
+        "m3-c64-m512": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "10 - 8184"
+        },
+        "m3-c80-m640": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 640,
+            "disk": "10 - 8184"
+        }
+    },
+    "clickhouse": {
+        "b1.medium": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 512"
+        },
+        "m1.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "m1.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "m1.medium": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "m1.large": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "m1.xlarge": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "m1.2xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "m1.3xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "m1.4xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "s1.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 8184"
+        },
+        "s1.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "s1.medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "s1.large": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "s1.xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "b2.medium": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 512"
+        },
+        "m2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "m2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "m2.medium": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "m2.large": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "m2.xlarge": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "m2.2xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "m2.3xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "m2.4xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "m2.5xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8184"
+        },
+        "m2.6xlarge": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "10 - 8184"
+        },
+        "m2.7xlarge": {
+            "cores": 56,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "10 - 8184"
+        },
+        "m2.8xlarge": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "10 - 8184"
+        },
+        "s2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 8184"
+        },
+        "s2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8184"
+        },
+        "s2.medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8184"
+        },
+        "s2.large": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8184"
+        },
+        "s2.xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8184"
+        },
+        "s2.2xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8184"
+        },
+        "s2.3xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8184"
+        },
+        "s2.4xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 8184"
+        },
+        "s2.5xlarge": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8184"
+        },
+        "s2.6xlarge": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8184"
+        },
+        "b3-c1-m4": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 512"
+        },
+        "s3-c2-m8": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 8192"
+        },
+        "s3-c4-m16": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8192"
+        },
+        "s3-c8-m32": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8192"
+        },
+        "s3-c12-m48": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8192"
+        },
+        "s3-c16-m64": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8192"
+        },
+        "s3-c24-m96": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8192"
+        },
+        "s3-c32-m128": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8192"
+        },
+        "s3-c40-m160": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 8192"
+        },
+        "s3-c48-m192": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8192"
+        },
+        "s3-c64-m256": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8192"
+        },
+        "s3-c80-m320": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8192"
+        },
+        "s3-c96-m576": {
+            "cores": 96,
+            "core_fraction": 100,
+            "memory": 576,
+            "disk": "10 - 8192"
+        },
+        "m3-c2-m16": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8192"
+        },
+        "m3-c4-m32": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8192"
+        },
+        "m3-c6-m48": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8192"
+        },
+        "m3-c8-m64": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8192"
+        },
+        "m3-c12-m96": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8192"
+        },
+        "m3-c16-m128": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8192"
+        },
+        "m3-c24-m192": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8192"
+        },
+        "m3-c32-m256": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 8192"
+        },
+        "m3-c40-m320": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 8192"
+        },
+        "m3-c48-m384": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "10 - 8192"
+        },
+        "m3-c56-m448": {
+            "cores": 56,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "10 - 8192"
+        },
+        "m3-c64-m512": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "10 - 8192"
+        },
+        "m3-c80-m640": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 640,
+            "disk": "10 - 8192"
+        },
+        "c3-c2-m4": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 4,
+            "disk": "10 - 8192"
+        },
+        "c3-c4-m8": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 8192"
+        },
+        "c3-c8-m16": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 8192"
+        },
+        "c3-c12-m24": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 24,
+            "disk": "10 - 8192"
+        },
+        "c3-c16-m32": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 8192"
+        },
+        "c3-c24-m48": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 8192"
+        },
+        "c3-c32-m64": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 8192"
+        },
+        "c3-c40-m80": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 80,
+            "disk": "10 - 8192"
+        },
+        "c3-c48-m96": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 8192"
+        },
+        "c3-c64-m128": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 8192"
+        },
+        "c3-c80-m160": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 8192"
+        },
+        "c3-c96-m192": {
+            "cores": 96,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 8192"
+        }
+    },
+    "mongo": {
+        "b1.medium": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 512"
+        },
+        "s1.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 2232"
+        },
+        "s1.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 2232"
+        },
+        "s1.medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 2232"
+        },
+        "s1.large": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 2232"
+        },
+        "s1.xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 2232"
+        },
+        "b2.medium": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 512"
+        },
+        "m2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 2232"
+        },
+        "m2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 2232"
+        },
+        "m2.medium": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 2232"
+        },
+        "m2.large": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 2232"
+        },
+        "m2.xlarge": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 2232"
+        },
+        "m2.2xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 2232"
+        },
+        "m2.3xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 2232"
+        },
+        "m2.4xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 2232"
+        },
+        "m2.5xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 2232"
+        },
+        "m2.6xlarge": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "10 - 2232"
+        },
+        "m2.7xlarge": {
+            "cores": 56,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "10 - 2232"
+        },
+        "m2.8xlarge": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "10 - 2232"
+        },
+        "s2.micro": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 2232"
+        },
+        "s2.small": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 2232"
+        },
+        "s2.medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 2232"
+        },
+        "s2.large": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 2232"
+        },
+        "s2.xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 2232"
+        },
+        "s2.2xlarge": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 2232"
+        },
+        "s2.3xlarge": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 2232"
+        },
+        "s2.4xlarge": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 2232"
+        },
+        "s2.5xlarge": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 2232"
+        },
+        "s2.6xlarge": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 2232"
+        },
+        "b3-c1-m4": {
+            "cores": 2,
+            "core_fraction": 50,
+            "memory": 4,
+            "disk": "10 - 512"
+        },
+        "s3-c2-m8": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 2232"
+        },
+        "s3-c4-m16": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 2232"
+        },
+        "s3-c8-m32": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 2232"
+        },
+        "s3-c12-m48": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 2232"
+        },
+        "s3-c16-m64": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 2232"
+        },
+        "s3-c24-m96": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 2232"
+        },
+        "s3-c32-m128": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 2232"
+        },
+        "s3-c40-m160": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 2232"
+        },
+        "s3-c48-m192": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 2232"
+        },
+        "s3-c64-m256": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 2232"
+        },
+        "s3-c80-m320": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 2232"
+        },
+        "s3-c96-m576": {
+            "cores": 96,
+            "core_fraction": 100,
+            "memory": 576,
+            "disk": "10 - 2232"
+        },
+        "m3-c2-m16": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 2232"
+        },
+        "m3-c4-m32": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 2232"
+        },
+        "m3-c6-m48": {
+            "cores": 6,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 2232"
+        },
+        "m3-c8-m64": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 2232"
+        },
+        "m3-c12-m96": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 2232"
+        },
+        "m3-c16-m128": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 2232"
+        },
+        "m3-c24-m192": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 2232"
+        },
+        "m3-c32-m256": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 256,
+            "disk": "10 - 2232"
+        },
+        "m3-c40-m320": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 320,
+            "disk": "10 - 2232"
+        },
+        "m3-c48-m384": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 384,
+            "disk": "10 - 2232"
+        },
+        "m3-c56-m448": {
+            "cores": 56,
+            "core_fraction": 100,
+            "memory": 448,
+            "disk": "10 - 2232"
+        },
+        "m3-c64-m512": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 512,
+            "disk": "10 - 2232"
+        },
+        "m3-c80-m640": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 640,
+            "disk": "10 - 2232"
+        },
+        "c3-c2-m4": {
+            "cores": 2,
+            "core_fraction": 100,
+            "memory": 4,
+            "disk": "10 - 2232"
+        },
+        "c3-c4-m8": {
+            "cores": 4,
+            "core_fraction": 100,
+            "memory": 8,
+            "disk": "10 - 2232"
+        },
+        "c3-c8-m16": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 16,
+            "disk": "10 - 2232"
+        },
+        "c3-c12-m24": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 24,
+            "disk": "10 - 2232"
+        },
+        "c3-c16-m32": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": "10 - 2232"
+        },
+        "c3-c24-m48": {
+            "cores": 24,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": "10 - 2232"
+        },
+        "c3-c32-m64": {
+            "cores": 32,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": "10 - 2232"
+        },
+        "c3-c40-m80": {
+            "cores": 40,
+            "core_fraction": 100,
+            "memory": 80,
+            "disk": "10 - 2232"
+        },
+        "c3-c48-m96": {
+            "cores": 48,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": "10 - 2232"
+        },
+        "c3-c64-m128": {
+            "cores": 64,
+            "core_fraction": 100,
+            "memory": 128,
+            "disk": "10 - 2232"
+        },
+        "c3-c80-m160": {
+            "cores": 80,
+            "core_fraction": 100,
+            "memory": 160,
+            "disk": "10 - 2232"
+        },
+        "c3-c96-m192": {
+            "cores": 96,
+            "core_fraction": 100,
+            "memory": 192,
+            "disk": "10 - 2232"
+        }
+    },
+    "ydb": {
+        "medium": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 32,
+            "disk": ""
+        },
+        "medium-m64": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": ""
+        },
+        "medium-m96": {
+            "cores": 8,
+            "core_fraction": 100,
+            "memory": 96,
+            "disk": ""
+        },
+        "large": {
+            "cores": 12,
+            "core_fraction": 100,
+            "memory": 48,
+            "disk": ""
+        },
+        "xlarge": {
+            "cores": 16,
+            "core_fraction": 100,
+            "memory": 64,
+            "disk": ""
+        }
+    }
+}
