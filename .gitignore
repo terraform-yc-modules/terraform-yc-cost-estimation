@@ -4,5 +4,4 @@ __pycache__/
 *$py.class
 .pytest_cache/
 functions/sku.json
-.aider*
 .coverage

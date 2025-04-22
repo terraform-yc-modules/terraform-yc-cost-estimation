@@ -1,10 +1,12 @@
 import json
+import logging
+
 from core.container import Container
 from util.logging import configure_logging
-import logging
 
 # Initialize logging
 configure_logging(logging.INFO)
+
 
 def handler(event, context):
     plan = json.loads(event["body"])
@@ -18,11 +20,8 @@ def handler(event, context):
     # Get container and estimator
     container = Container.get_instance()
     container.initialize()
-    estimator = container.get('estimator')
-    
+    estimator = container.get("estimator")
+
     result = estimator.process_plan(plan, param_full)
 
-    return {
-        'statusCode': 200,
-        'body': json.dumps(result)
-    }
+    return {"statusCode": 200, "body": json.dumps(result)}
